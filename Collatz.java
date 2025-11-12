@@ -9,6 +9,10 @@ public class Collatz {
 				current = j;
 				int count = 1;
 				System.out.print(current);
+				 if (current == 1) {
+                    System.out.print(" 4 2 1");
+                    count = 4;
+					
 				while (current != 1) {
 					if (current % 2 == 0) {
 						current = current / 2;
@@ -19,7 +23,7 @@ public class Collatz {
 					count++;
 				}
 
-				System.out.println("(" + count + ")");
+				System.out.println(" (" + count + ")");
 			}
 		}
 		System.out.println("Every one of the first " + num + " hailstone sequences reached 1.");
