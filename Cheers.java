@@ -7,12 +7,12 @@ public class Cheers {
                 String useAn = "AEFHILMNORSX";
 
                 for (int i = 0; i < word.length(); i++) {
-                        System.out.print("Give me: ");
+                        System.out.print("Give me ");
                         char c = word.charAt(i);
                         if (useAn.indexOf(c) != -1) {
-                                System.out.println("an " + c + "!");
+                                System.out.println("an: " + c + "!");
                         } else {
-                                System.out.println("a " + c + "!");
+                                System.out.println("a: " + c + "!");
                         }
 
                 }
