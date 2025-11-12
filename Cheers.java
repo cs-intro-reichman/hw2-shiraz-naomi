@@ -12,7 +12,7 @@ public class Cheers {
                         if (useAn.indexOf(c) != -1) {
                                 System.out.println("an " + c + ": " + c + "!");
                         } else {
-                                System.out.println("a " + c + ": " + c + "!");
+                                System.out.println("a  " + c + ": " + c + "!");
                         }
 
                 }
