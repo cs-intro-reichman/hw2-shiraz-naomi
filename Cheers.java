@@ -10,9 +10,9 @@ public class Cheers {
                         System.out.print("Give me ");
                         char c = word.charAt(i);
                         if (useAn.indexOf(c) != -1) {
-                                System.out.println("an: " + c + "!");
+                                System.out.println("an " + c + ": " + c + "!");
                         } else {
-                                System.out.println("a: " + c + "!");
+                                System.out.println("a: " + c + ": " + c + "!");
                         }
 
                 }
