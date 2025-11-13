@@ -9,18 +9,19 @@ public class Collatz {
 				current = j;
 				int count = 1;
 				System.out.print(current);
-				 if (current == 1) {
-                    System.out.print(" 4 2 1");
-                    count = 4;
-					
-				while (current != 1) {
-					if (current % 2 == 0) {
-						current = current / 2;
-					} else {
-						current = current * 3 + 1;
+				if (current == 1) {
+					System.out.print(" 4 2 1");
+					count = 4;
+				} else {
+					while (current != 1) {
+						if (current % 2 == 0) {
+							current = current / 2;
+						} else {
+							current = current * 3 + 1;
+						}
+						System.out.print(" " + current);
+						count++;
 					}
-					System.out.print(" " + current);
-					count++;
 				}
 
 				System.out.println(" (" + count + ")");
